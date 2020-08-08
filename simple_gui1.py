@@ -1,10 +1,10 @@
-#from xmlrpclib import ServerProxy, Fault
-#from server import Node, UNHANDLED
+import sys
+from xmlrpclib import ServerProxy, Fault
+from server import Node, UNHANDLED
 from client import *
-#from threading import Threat
+from threading import Threat
 from time import sleep
 from os import listdir
-import sys
 import wx
 
 HEAD_START = 0.1
